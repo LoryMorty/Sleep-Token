@@ -1,0 +1,10 @@
+<div class="album-list-container">
+  <h1>Discografia SleepToken</h1>
+  <div class="album-grid">
+    <div *ngFor="let album of albums" class="album-card" (click)="goToAlbum(album)">
+      <img [src]="album.cover" [alt]="album.title" />
+      <p>{{ album.title }}</p>
+      <p>{{ album.year }}</p>
+    </div>
+  </div>
+</div>

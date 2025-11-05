@@ -1,0 +1,25 @@
+.back-btn {
+  background-color: #2d2f36;       /* colore scuro elegante */
+  color: #fff;                     /* testo bianco */
+  border: none;
+  padding: 10px 18px;
+  border-radius: 8px;              /* angoli morbidi */
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.3s ease;       /* animazione morbida */
+}
+
+.back-btn:hover {
+  background-color: #3c3f47;       /* colore più chiaro al passaggio */
+  transform: translateY(-2px);     /* leggero sollevamento */
+}
+
+.back-btn:active {
+  transform: translateY(0);        /* ritorna in posizione al click */
+  opacity: 0.9;
+}
+
+.album-detail-container {
+  background: linear-gradient(180deg, #0A0A0F 0%, #1A0F1D 35%, #2B1A2A 65%, #3A263A 100%);
+  color: #fff;
+}

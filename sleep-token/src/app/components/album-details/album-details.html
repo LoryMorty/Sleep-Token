@@ -1,0 +1,18 @@
+<div *ngIf="album" class="album-detail-container">
+
+  <div class="album-detail">
+
+
+    <ol>
+      <button class="back-btn" (click)="goBack()">← Back</button>
+      <br/>
+      <br/>
+      <img [src]="album.cover" [alt]="album.title" />
+      <h1>{{ album.title }} ({{ album.year }})</h1>
+      <p>{{ album.description }}</p>
+      <br/>
+      <h3>Tracklist:</h3>
+      <li *ngFor="let track of album.tracks">{{ track }}</li>
+    </ol>
+  </div>
+</div>
