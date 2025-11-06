@@ -2,7 +2,7 @@
   text-align: center;
   padding: 2rem;
   font-family: 'Helvetica Neue', sans-serif;
-  color: #fff;
+  color: rgb(255, 230, 216);
   background: linear-gradient(135deg, #081524, #0D2A45 30%, #164770 70%, #2A6FA4);
   background-blend-mode: overlay;
   min-height: 100vh;
@@ -22,7 +22,7 @@ h1 {
 }
 
 .album-card {
-  background: white;
+  background: rgb(255, 230, 216);
   border-radius: 12px;
   padding: 1rem;
   transition: transform 0.2s ease, box-shadow 0.2s ease;
